@@ -22,11 +22,11 @@ We will start by creating a **Resource Group**:
 
 2. Search for *Resource Group*
 
-    ![01-create-rg](Images\01-create-rg.png)
+    ![01-create-rg](Images/01-create-rg.png)
 
 3. Pick the first result - **Resource group** from Microsoft
 
-    ![02-resource-group](Images\02-resource-group.png)
+    ![02-resource-group](Images/02-resource-group.png)
 
 4. Click **Create**
 
@@ -40,13 +40,13 @@ Now you have the basic logical container for your app ready. Let's continue by a
 
 1. In the **Overview** section click **Add** at the top
 
-    ![03-add-to-rg](Images\03-add-to-rg.png)
+    ![03-add-to-rg](Images/03-add-to-rg.png)
 
 2. Search for *cognitive services*
 
 3. Select **Cognitive Services APIs (preview)** from Microsoft
 
-    ![04-cognitive-services](Images\04-cognitive-services.png)
+    ![04-cognitive-services](Images/04-cognitive-services.png)
 
 4. Click **Create**
 
@@ -54,7 +54,7 @@ Now you have the basic logical container for your app ready. Let's continue by a
 
 6. Select **API Type** as **Emotion API (preview)** 
 
-    ![05-emotion-api](Images\05-emotion-api.png)
+    ![05-emotion-api](Images/05-emotion-api.png)
 
 7. In **Pricing tier** select **Free** 
 
@@ -66,7 +66,7 @@ Now you have the basic logical container for your app ready. Let's continue by a
 
 After the API is created it will be shown back in your Resource Group (you may have to open it again or click Refresh). Open its blade by clicking it and go to the **Keys** section. From there copy the value of **KEY 1**:
 
- ![06-emotion-keys](Images\06-emotion-keys.png)
+ ![06-emotion-keys](Images/06-emotion-keys.png)
 
 Save it somewhere (text file for instance) as we will need it later on.
 
@@ -84,7 +84,7 @@ Last thing to create will be a Function App. The process is quite similar to cre
 
 At this stage your Resource Group should contain everything that is needed for this workshop:
 
- ![07-created](Images\07-created.png)
+ ![07-created](Images/07-created.png)
 
 ## Create the API
 
@@ -94,11 +94,11 @@ Now let's do something more interesting, let's code! We'll create the API, set i
 
 2. Click **+ New Function**
 
-    ![08-new-function](Images\08-new-function.png)
+    ![08-new-function](Images/08-new-function.png)
 
 3. Select the **HttpTrigger - C#** template
 
-    ![09-http-trigger](Images\09-http-trigger.png)
+    ![09-http-trigger](Images/09-http-trigger.png)
 
 4. Scroll down and name give your function a meaningful **name** (such as FaceProcessor...)
 
@@ -134,7 +134,7 @@ Let's set it up.
 
 1. Leave the Develop section of your Function App and click **Function app settings** at the bottom.
 
-    ![10-function-app-settings](Images\10-function-app-settings.png)
+    ![10-function-app-settings](Images/10-function-app-settings.png)
 
 2. Scroll down and select **Configure app settings** button next to Application settings
 
