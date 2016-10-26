@@ -142,7 +142,7 @@ Let's set it up.
 
 4. Add new key called **EmotionApiKey** with value of KEY 1 for your Emotion API (Remember? We copied it earlier and saved it to a text file.)
 
-    ![11-emotion-api-key](Images\11-emotion-api-key.png)
+    ![11-emotion-api-key](Images/11-emotion-api-key.png)
 
 5. Click **Save** at the top of the blade
 
@@ -154,11 +154,11 @@ Calls to Cognitive Services will now work. But we need to set up one more thing 
 
 3. Delete all prepopulated origins
 
-    ![12-cors-delete](Images\12-cors-delete.png)
+    ![12-cors-delete](Images/12-cors-delete.png)
 
 4. Add new origin: *****
 
-    ![13-cors-star](Images\13-cors-star.png)
+    ![13-cors-star](Images/13-cors-star.png)
 
 5. Click **Save** 
 
