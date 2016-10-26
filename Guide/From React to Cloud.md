@@ -1,14 +1,19 @@
 # From React to Azure
 
-> Reactive Conf - Workshop
-
 During this workshop you will learn how to connect your React application to Azure and make it more intelligent using Microsoft Cognitive Services.
+
+In the first excercise we will create a simple API based on Azure Functions which will receive an image, send it to Cognitive Services Emotions API and return back emotions the API has detected.
 
 ## Prepare Azure Account
 
 To use Azure you need a Microsoft Account. If you don't have one, [register on the web](https://signup.live.com).
 
-...
+Then you will need an **Azure Subscription**. There are several ways to get it:
+
+* Start a [free trial](https://azure.microsoft.com/en-us/free/) and get $200 in credits for one month.
+* Sign up for [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) and get $25 in free credits each month for one year.
+* Get a [Visual Studio subscription](https://www.visualstudio.com/subscriptions/) or ask at your company if you have access to it.
+* Or just get it any other way you can... :)
 
 Once you have your account and subscription ready, sign in to the [Azure portal](https://portal.azure.com).
 
